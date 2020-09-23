@@ -1189,14 +1189,6 @@ body {
   padding-bottom: 28px;
 }
 
-.footer {
-  padding-top: 135px;
-  opacity: .5;
-  font-weight: 300;
-  font-size: 13px;
-  line-height: 130%;
-}
-
 @media (max-width: 1366px) {
   body {
     font-size: 16px;
@@ -1707,9 +1699,8 @@ body {
   .specification__box-text {
     margin: 0;
   }
-  .footer {
-    padding: 50px 0 30px;
-    margin-right: 20px;
+  .contacts__inner {
+    padding-bottom: 50px;
   }
 }
 
@@ -1728,6 +1719,9 @@ body {
   }
   .header {
     padding: 20px 0;
+  }
+  .contacts__inner {
+    padding-bottom: 50px;
   }
 }
 
@@ -1761,6 +1755,9 @@ body {
 @media (max-width: 375px) {
   .header__list-phone {
     padding: 15px 0;
+  }
+  .contacts__inner {
+    padding-bottom: 50px;
   }
 }
 
