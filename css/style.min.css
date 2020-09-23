@@ -1197,10 +1197,6 @@ body {
   line-height: 130%;
 }
 
-.footer__copy {
-  text-align: right;
-}
-
 @media (max-width: 1366px) {
   body {
     font-size: 16px;
@@ -1713,6 +1709,7 @@ body {
   }
   .footer {
     padding: 50px 0 30px;
+    margin-right: 20px;
   }
 }
 
