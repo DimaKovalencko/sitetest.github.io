@@ -1686,7 +1686,7 @@ body {
 
 @media (max-width: 510px) {
   .title {
-    padding: 45px 0 25px;
+    padding: 25px 0 15px;
   }
   .page-section__wrapper {
     padding: 0;
