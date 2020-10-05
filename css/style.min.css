@@ -1189,6 +1189,18 @@ body {
   padding-bottom: 28px;
 }
 
+.footer {
+  padding-top: 135px;
+  opacity: .5;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 130%;
+}
+
+.footer__copy {
+  text-align: right;
+}
+
 @media (max-width: 1366px) {
   body {
     font-size: 16px;
@@ -1602,7 +1614,7 @@ body {
     line-height: 150%;
   }
   .top__social-list {
-    margin-top: 100px;
+    margin-top: 50px;
   }
   .benefits__num {
     display: none;
@@ -1699,8 +1711,8 @@ body {
   .specification__box-text {
     margin: 0;
   }
-  .contacts__inner {
-    padding-bottom: 50px;
+  .footer {
+    padding: 50px 0 30px;
   }
 }
 
@@ -1719,9 +1731,6 @@ body {
   }
   .header {
     padding: 20px 0;
-  }
-  .contacts__inner {
-    padding-bottom: 50px;
   }
 }
 
@@ -1755,9 +1764,6 @@ body {
 @media (max-width: 375px) {
   .header__list-phone {
     padding: 15px 0;
-  }
-  .contacts__inner {
-    padding-bottom: 50px;
   }
 }
 
