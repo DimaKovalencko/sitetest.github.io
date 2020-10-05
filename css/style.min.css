@@ -1614,7 +1614,8 @@ body {
     line-height: 150%;
   }
   .top__social-list {
-    margin-top: 30px;
+    margin-top: 80px;
+    padding-bottom: 65px;
   }
   .benefits__num {
     display: none;
